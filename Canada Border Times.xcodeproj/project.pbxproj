@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E48553F2086EBFC002A29BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48553E2086EBFC002A29BD /* AppDelegate.swift */; };
+		9E4855412086EBFC002A29BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4855402086EBFC002A29BD /* ViewController.swift */; };
+		9E4855442086EBFC002A29BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4855422086EBFC002A29BD /* Main.storyboard */; };
+		9E4855462086EBFC002A29BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4855452086EBFC002A29BD /* Assets.xcassets */; };
+		9E4855492086EBFC002A29BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4855472086EBFC002A29BD /* LaunchScreen.storyboard */; };
+		9E4855512086EC8A002A29BD /* CanadaBoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4855502086EC8A002A29BD /* CanadaBoundController.swift */; };
+		9E825F242086FC90004BB7C7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E825F252086FC90004BB7C7 /* Alamofire.framework */; };
+		CCE882F1D6BE9A5D714ACFB9 /* Pods_Canada_Border_Times.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E0BFD5414317BE2AF9AC99 /* Pods_Canada_Border_Times.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FD611CD0A2CA3131F63303F /* Pods-Canada Border Times.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canada Border Times.release.xcconfig"; path = "Pods/Target Support Files/Pods-Canada Border Times/Pods-Canada Border Times.release.xcconfig"; sourceTree = "<group>"; };
+		86E0BFD5414317BE2AF9AC99 /* Pods_Canada_Border_Times.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canada_Border_Times.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E48553B2086EBFC002A29BD /* Canada Border Times.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canada Border Times.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E48553E2086EBFC002A29BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E4855402086EBFC002A29BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E4855432086EBFC002A29BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E4855452086EBFC002A29BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E4855482086EBFC002A29BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E48554A2086EBFC002A29BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4855502086EC8A002A29BD /* CanadaBoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaBoundController.swift; sourceTree = "<group>"; };
+		9E825F252086FC90004BB7C7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E521D720B959974C402B26 /* Pods-Canada Border Times.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canada Border Times.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Canada Border Times/Pods-Canada Border Times.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E4855382086EBFC002A29BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E825F242086FC90004BB7C7 /* Alamofire.framework in Frameworks */,
+				CCE882F1D6BE9A5D714ACFB9 /* Pods_Canada_Border_Times.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7128905C5024B49D2A8DAF96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E825F252086FC90004BB7C7 /* Alamofire.framework */,
+				86E0BFD5414317BE2AF9AC99 /* Pods_Canada_Border_Times.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A48BEEED71CF8E4E84364D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2E521D720B959974C402B26 /* Pods-Canada Border Times.debug.xcconfig */,
+				0FD611CD0A2CA3131F63303F /* Pods-Canada Border Times.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E4855322086EBFC002A29BD = {
+			isa = PBXGroup;
+			children = (
+				9E48553D2086EBFC002A29BD /* Canada Border Times */,
+				9E48553C2086EBFC002A29BD /* Products */,
+				7A48BEEED71CF8E4E84364D1 /* Pods */,
+				7128905C5024B49D2A8DAF96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E48553C2086EBFC002A29BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E48553B2086EBFC002A29BD /* Canada Border Times.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E48553D2086EBFC002A29BD /* Canada Border Times */ = {
+			isa = PBXGroup;
+			children = (
+				9E48553E2086EBFC002A29BD /* AppDelegate.swift */,
+				9E4855402086EBFC002A29BD /* ViewController.swift */,
+				9E4855422086EBFC002A29BD /* Main.storyboard */,
+				9E4855452086EBFC002A29BD /* Assets.xcassets */,
+				9E4855472086EBFC002A29BD /* LaunchScreen.storyboard */,
+				9E48554A2086EBFC002A29BD /* Info.plist */,
+				9E4855502086EC8A002A29BD /* CanadaBoundController.swift */,
+			);
+			path = "Canada Border Times";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E48553A2086EBFC002A29BD /* Canada Border Times */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E48554D2086EBFC002A29BD /* Build configuration list for PBXNativeTarget "Canada Border Times" */;
+			buildPhases = (
+				40DF18CB5D9416F80109935B /* [CP] Check Pods Manifest.lock */,
+				9E4855372086EBFC002A29BD /* Sources */,
+				9E4855382086EBFC002A29BD /* Frameworks */,
+				9E4855392086EBFC002A29BD /* Resources */,
+				84451A5D45B7D819FF9555B2 /* [CP] Embed Pods Frameworks */,
+				4B815C4331B28B2133555E9F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Canada Border Times";
+			productName = "Canada Border Times";
+			productReference = 9E48553B2086EBFC002A29BD /* Canada Border Times.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E4855332086EBFC002A29BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Robbie Perry";
+				TargetAttributes = {
+					9E48553A2086EBFC002A29BD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E4855362086EBFC002A29BD /* Build configuration list for PBXProject "Canada Border Times" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E4855322086EBFC002A29BD;
+			productRefGroup = 9E48553C2086EBFC002A29BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E48553A2086EBFC002A29BD /* Canada Border Times */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E4855392086EBFC002A29BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4855492086EBFC002A29BD /* LaunchScreen.storyboard in Resources */,
+				9E4855462086EBFC002A29BD /* Assets.xcassets in Resources */,
+				9E4855442086EBFC002A29BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40DF18CB5D9416F80109935B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Canada Border Times-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B815C4331B28B2133555E9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Canada Border Times/Pods-Canada Border Times-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84451A5D45B7D819FF9555B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Canada Border Times/Pods-Canada Border Times-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Canada Border Times/Pods-Canada Border Times-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E4855372086EBFC002A29BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4855512086EC8A002A29BD /* CanadaBoundController.swift in Sources */,
+				9E4855412086EBFC002A29BD /* ViewController.swift in Sources */,
+				9E48553F2086EBFC002A29BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E4855422086EBFC002A29BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E4855432086EBFC002A29BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E4855472086EBFC002A29BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E4855482086EBFC002A29BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E48554B2086EBFC002A29BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E48554C2086EBFC002A29BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E48554E2086EBFC002A29BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E521D720B959974C402B26 /* Pods-Canada Border Times.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XK3Q22SQ3;
+				INFOPLIST_FILE = "Canada Border Times/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.bcit.Canada-Border-Times";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E48554F2086EBFC002A29BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD611CD0A2CA3131F63303F /* Pods-Canada Border Times.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XK3Q22SQ3;
+				INFOPLIST_FILE = "Canada Border Times/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.bcit.Canada-Border-Times";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E4855362086EBFC002A29BD /* Build configuration list for PBXProject "Canada Border Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E48554B2086EBFC002A29BD /* Debug */,
+				9E48554C2086EBFC002A29BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E48554D2086EBFC002A29BD /* Build configuration list for PBXNativeTarget "Canada Border Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E48554E2086EBFC002A29BD /* Debug */,
+				9E48554F2086EBFC002A29BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E4855332086EBFC002A29BD /* Project object */;
+}
