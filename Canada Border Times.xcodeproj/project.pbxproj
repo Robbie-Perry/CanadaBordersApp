@@ -11,10 +11,10 @@
 		9E48553F2086EBFC002A29BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48553E2086EBFC002A29BD /* AppDelegate.swift */; };
 		9E4855412086EBFC002A29BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4855402086EBFC002A29BD /* ViewController.swift */; };
 		9E4855442086EBFC002A29BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4855422086EBFC002A29BD /* Main.storyboard */; };
-		9E4855462086EBFC002A29BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4855452086EBFC002A29BD /* Assets.xcassets */; };
 		9E4855492086EBFC002A29BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4855472086EBFC002A29BD /* LaunchScreen.storyboard */; };
 		9E4855512086EC8A002A29BD /* CanadaBoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4855502086EC8A002A29BD /* CanadaBoundController.swift */; };
 		9E825F242086FC90004BB7C7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E825F252086FC90004BB7C7 /* Alamofire.framework */; };
+		9EB9C98E208A591200F147FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB9C98D208A591200F147FA /* Assets.xcassets */; };
 		CCE882F1D6BE9A5D714ACFB9 /* Pods_Canada_Border_Times.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E0BFD5414317BE2AF9AC99 /* Pods_Canada_Border_Times.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,11 +26,11 @@
 		9E48553E2086EBFC002A29BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E4855402086EBFC002A29BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E4855432086EBFC002A29BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E4855452086EBFC002A29BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E4855482086EBFC002A29BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E48554A2086EBFC002A29BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E4855502086EC8A002A29BD /* CanadaBoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaBoundController.swift; sourceTree = "<group>"; };
 		9E825F252086FC90004BB7C7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB9C98D208A591200F147FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E521D720B959974C402B26 /* Pods-Canada Border Times.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canada Border Times.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Canada Border Times/Pods-Canada Border Times.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,11 +89,11 @@
 				9E48553E2086EBFC002A29BD /* AppDelegate.swift */,
 				9E4855402086EBFC002A29BD /* ViewController.swift */,
 				9E4855422086EBFC002A29BD /* Main.storyboard */,
-				9E4855452086EBFC002A29BD /* Assets.xcassets */,
 				9E4855472086EBFC002A29BD /* LaunchScreen.storyboard */,
 				9E48554A2086EBFC002A29BD /* Info.plist */,
 				9E4855502086EC8A002A29BD /* CanadaBoundController.swift */,
 				9E1847E32088153E00651C2A /* Crossing.swift */,
+				9EB9C98D208A591200F147FA /* Assets.xcassets */,
 			);
 			path = "Canada Border Times";
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4855492086EBFC002A29BD /* LaunchScreen.storyboard in Resources */,
-				9E4855462086EBFC002A29BD /* Assets.xcassets in Resources */,
+				9EB9C98E208A591200F147FA /* Assets.xcassets in Resources */,
 				9E4855442086EBFC002A29BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,18 +10,46 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var canada: UIImageView!
+    @IBOutlet weak var usa: UIImageView!
+    
+    @IBAction func canButton(_ sender: Any) {
+        canadaTapped()
+    }
+    @IBOutlet weak var usaButton: UIButton!
+    
+    @IBAction func usaBtn(_ sender: Any) {
+        usaTapped()
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let img = UIColor(patternImage: #imageLiteral(resourceName: "Asphalt-1"))
+        self.view.backgroundColor = img
+        
+        let canadaTap = UITapGestureRecognizer(target: self, action: #selector(ViewController.canadaTapped))
+        let usaTap = UITapGestureRecognizer(target: self, action: #selector(ViewController.usaTapped))
+        canada.addGestureRecognizer(canadaTap)
+        canada.isUserInteractionEnabled = true
+        usa.addGestureRecognizer(usaTap)
+        usa.isUserInteractionEnabled = true
+    }
+    
+    @objc func usaTapped() {
+        self.performSegue(withIdentifier: "show", sender: "USA Bound")
+    }
+    
+    @objc func canadaTapped() {
+        self.performSegue(withIdentifier: "show", sender: "Canada Bound")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let dest = segue.destination as! CanadaBoundController
-        let button = sender as! UIButton
         
-        if (button.titleLabel?.text! == "Canada Bound") {
+        if sender as! String == "Canada Bound" {
             dest.url = "https://crypto-api-justin.herokuapp.com/border/data/cad"
-        } else {
+        } else if sender as! String == "USA Bound" {
             dest.url = "https://crypto-api-justin.herokuapp.com/border/data/usa"
         }
     }

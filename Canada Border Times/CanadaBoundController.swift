@@ -80,9 +80,10 @@ class CanadaBoundController: UITableViewController {
         cell.crossing.text = crossing.crossing
         cell.delay?.text = crossing.delay
         
-        if crossing.delay == "No Delay" {
+        if crossing.delay?.lowercased() == "no delay" {
             cell.backgroundColor = UIColor(red: 129/255.0, green: 199/255.0, blue: 132/255.0, alpha: 1)
         } else {
+            print(crossing.delay!)
             let strArr = crossing.delay?.split(separator: " ")
             let intVal = Int(strArr![0].components(separatedBy: CharacterSet.decimalDigits.inverted)[0])!
             if intVal > 9 {

@@ -23,10 +23,10 @@
                                 <rect key="frame" x="68" y="70" width="240" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Canada Bound">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M4y-cT-7ws" kind="show" id="LxT-CT-40X"/>
+                                    <action selector="canButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pqU-Ur-6ba"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="USA" translatesAutoresizingMaskIntoConstraints="NO" id="K9o-bG-gkM">
@@ -51,10 +51,10 @@
                                 <rect key="frame" x="68" y="578" width="240" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="USA Bound">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M4y-cT-7ws" kind="show" id="yKR-yB-whK"/>
+                                    <action selector="usaBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ECd-ky-QGv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -75,11 +75,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="canada" destination="UcU-2G-JOb" id="xM0-OE-pvs"/>
+                        <outlet property="usa" destination="K9o-bG-gkM" id="TJ1-23-APU"/>
+                        <outlet property="usaButton" destination="J48-bN-Sph" id="3Ku-bn-ZLP"/>
+                        <segue destination="M4y-cT-7ws" kind="show" identifier="show" id="YqO-tk-A69"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Rfd-cK-z6D" userLabel="Canada Tap"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="658.92053973013503"/>
+            <point key="canvasLocation" x="-58.399999999999999" y="628.33583208395805"/>
         </scene>
         <!--Canada Bound Controller-->
         <scene sceneID="uij-Tg-eEx">
@@ -89,9 +95,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <button key="tableHeaderView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vhW-Oc-OQI">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title=" &lt; Back"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="XBS-42-8kf"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="58" id="Ao5-pQ-8n3" customClass="CrossingTableViewCell" customModule="Canada_Border_Times" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="58"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="58"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ao5-pQ-8n3" id="3BS-cP-duz">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="57.5"/>
@@ -143,10 +157,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Canada" width="102" height="60"/>
-        <image name="USA" width="102" height="60"/>
+        <image name="Canada" width="204" height="120"/>
+        <image name="USA" width="204" height="120"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="LxT-CT-40X"/>
-    </inferredMetricsTieBreakers>
 </document>

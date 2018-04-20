@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "flag-of-United-States-of-America.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "flag-of-United-States-of-America.png",
       "scale" : "2x"
     },
     {
