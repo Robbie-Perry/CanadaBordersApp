@@ -20,6 +20,7 @@ class CanadaBoundController: UITableViewController {
     
     var crossings = [String]()
     var crossingList = [Crossing]()
+    var url: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +31,7 @@ class CanadaBoundController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        Alamofire.request("https://crypto-api-justin.herokuapp.com/border/data/cad").responseJSON { response in
+        Alamofire.request(url!).responseJSON { response in
             if let data = response.data {
                 if let json = try? JSON(data: data) {
                     for crossing in json.arrayValue {
@@ -84,7 +85,6 @@ class CanadaBoundController: UITableViewController {
         } else {
             let strArr = crossing.delay?.split(separator: " ")
             let intVal = Int(strArr![0].components(separatedBy: CharacterSet.decimalDigits.inverted)[0])!
-            print(intVal)
             if intVal > 9 {
                 cell.backgroundColor = UIColor(red: 229/255.0, green: 115/255.0, blue: 115/255.0, alpha: 1)
             } else {
